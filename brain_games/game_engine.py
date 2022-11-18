@@ -10,9 +10,9 @@ def game_engine(game):
   print(game.main_question)
   trys_count = 3
   while trys_count > 0:
-    game = game.colculation()
-    question = game[0]
-    correct_answer = game[1]
+    game_logic = game.colculation()
+    question = game_logic[0]
+    correct_answer = game_logic[1]
     print(f'Question: {question}')
     answer = prompt.string('Your answer: ')
     if int(answer) == correct_answer:
