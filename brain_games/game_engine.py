@@ -2,7 +2,6 @@ import prompt
 import brain_games.games.brain_calc as calc
 
 
-
 def game_engine(game):
   print('Welcome to the Brain Games!')
   name = prompt.string('May I have your name? ')
@@ -21,4 +20,3 @@ def game_engine(game):
     elif int(answer) != correct_answer:
       print(f'"{answer}" is wrong answer ;(. Correct answer was "{correct_answer}" \nLet\'s try again, {name}!')
   print(f'Congratulations, {name}!')
-
