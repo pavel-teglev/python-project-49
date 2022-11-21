@@ -1,8 +1,4 @@
 import prompt
-import brain_games.games.brain_calc
-import brain_games.games.brain_gcd
-import brain_games.games.brain_progression
-import brain_games.games.brain_prime
 
 
 def game_engine(game):
