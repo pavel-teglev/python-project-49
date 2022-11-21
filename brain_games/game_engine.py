@@ -1,6 +1,7 @@
 import prompt
 import brain_games.games.brain_calc as calc
 import brain_games.games.brain_gcd as brain_gcd
+import brain_games.games.brain_progression
 
 
 def game_engine(game):
