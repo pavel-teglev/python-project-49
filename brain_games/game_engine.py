@@ -18,4 +18,5 @@ def game_engine(game):
       trys_count -= 1
     elif answer != correct_answer:
       print(f'"{answer}" is wrong answer ;(. Correct answer was "{correct_answer}" \nLet\'s try again, {name}!')
+      return
   print(f'Congratulations, {name}!')
