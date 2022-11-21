@@ -20,6 +20,6 @@ def game_engine(game):
             print(
                 f'"{answer}" is wrong answer ;(. '
                 f'Correct answer was "{correct_answer}"'
-                  f'\nLet\'s try again, {name}!')
+                f'\nLet\'s try again, {name}!')
             return
     print(f'Congratulations, {name}!')
