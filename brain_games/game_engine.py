@@ -8,9 +8,7 @@ def game_engine(game):
     print(game.main_question)
     try_count = 3
     while try_count > 0:
-        game_logic = game.colculation()
-        question = game_logic[0]
-        correct_answer = game_logic[1]
+        question, correct_answer = game.calculation()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

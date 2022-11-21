@@ -5,10 +5,10 @@ import math
 main_question = 'Find the greatest common divisor of given numbers.'
 
 
-def colculation():
+def calculation():
     first_number = randint(0, 100)
     second_number = randint(0, 100)
-    condtions = f'{first_number} {second_number}'
+    conditions = f'{first_number} {second_number}'
     result = math.gcd(first_number, second_number)
     result = str(result)
-    return [condtions, result]
+    return [conditions, result]

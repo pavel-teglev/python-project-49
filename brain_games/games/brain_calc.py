@@ -3,7 +3,7 @@ from random import randint, choice
 main_question = 'What is the result of the expression?'
 
 
-def colculation():
+def calculation():
     first_operand = randint(0, 100)
     second_operand = randint(0, 100)
     operator = choice(['*', '-', '+'])

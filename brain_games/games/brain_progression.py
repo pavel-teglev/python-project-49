@@ -4,7 +4,7 @@ from random import randint
 main_question = 'What number is missing in the progression?'
 
 
-def colculation():
+def calculation():
     start = randint(1, 10)
     step = randint(1, 30)
     index = randint(0, 9)
@@ -17,5 +17,5 @@ def colculation():
         counter -= 1
     result = progression[index]
     progression[index] = parent
-    condtions = ' '.join(progression)
-    return [condtions, result]
+    conditions = ' '.join(progression)
+    return [conditions, result]
