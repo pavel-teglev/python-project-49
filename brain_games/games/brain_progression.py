@@ -8,14 +8,14 @@ def colculation():
     start = randint(1, 10)
     step = randint(1, 30)
     index = randint(0, 9)
-    progression = [start]
+    progression = [str(start)]
     parent = '..'
     counter = 9
     while counter > 0:
         start += step
-        progression.append(start)
+        progression.append(str(start))
         counter -= 1
     result = progression[index]
     progression[index] = parent
-    condtions = ''.join(str(progression))
+    condtions = ' '.join(progression)
     return [condtions, result]
