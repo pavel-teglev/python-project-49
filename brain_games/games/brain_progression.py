@@ -1,7 +1,7 @@
 from random import randint
 
 
-main_question = 'Find the greatest common divisor of given numbers.'
+main_question = 'What number is missing in the progression?'
 
 
 def colculation():
