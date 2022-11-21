@@ -1,7 +1,8 @@
 import prompt
-import brain_games.games.brain_calc as calc
-import brain_games.games.brain_gcd as brain_gcd
+import brain_games.games.brain_calc
+import brain_games.games.brain_gcd
 import brain_games.games.brain_progression
+import brain_games.games.brain_prime
 
 
 def game_engine(game):
@@ -16,9 +17,9 @@ def game_engine(game):
     correct_answer = game_logic[1]
     print(f'Question: {question}')
     answer = prompt.string('Your answer: ')
-    if int(answer) == correct_answer:
+    if answer == correct_answer:
       print('Correct!')
       trys_count -= 1
-    elif int(answer) != correct_answer:
+    elif answer != correct_answer:
       print(f'"{answer}" is wrong answer ;(. Correct answer was "{correct_answer}" \nLet\'s try again, {name}!')
   print(f'Congratulations, {name}!')

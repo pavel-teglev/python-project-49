@@ -8,4 +8,5 @@ def colculation():
   second_number = randint(0, 100)
   condtions = f'{first_number} {second_number}'
   result = math.gcd(first_number, second_number)
+  result = str(result)
   return [condtions, result]

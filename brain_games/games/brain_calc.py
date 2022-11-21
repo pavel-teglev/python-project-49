@@ -13,6 +13,7 @@ def colculation():
     result = first_operand - second_operand
   elif operator == '+':
     result = first_operand + second_operand
+  result = str(result)
   return [condtions, result]
 
 
