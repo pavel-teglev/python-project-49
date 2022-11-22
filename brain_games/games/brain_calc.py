@@ -4,6 +4,7 @@ MAIN_QUESTION = 'What is the result of the expression?'
 
 
 def make_calculation(first_operand, operator, second_operand):
+    result = ''
     if operator == '*':
         result = first_operand * second_operand
     elif operator == '-':
