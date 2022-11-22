@@ -12,7 +12,7 @@ def make_calculation(first_operand, operator, second_operand):
     elif operator == '+':
         result = first_operand + second_operand
     result = str(result)
-    return [result]
+    return result
 
 
 def run_game():
