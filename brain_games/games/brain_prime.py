@@ -1,7 +1,7 @@
 from random import randint
 
 
-MAIN_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+CONDITIONS = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -12,7 +12,7 @@ def is_prime(number):
     return result
 
 
-def run_game():
+def get_game():
     question = randint(1, 10000)
     correct_answer = 'no'
     if is_prime(question):

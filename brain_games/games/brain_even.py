@@ -1,7 +1,7 @@
 from random import randint
 
 
-MAIN_QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+CONDITIONS = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
@@ -11,7 +11,7 @@ def is_even(number):
         return False
 
 
-def run_game():
+def get_game():
     question = randint(0, 100)
     if is_even(question):
         correct_answer = 'yes'

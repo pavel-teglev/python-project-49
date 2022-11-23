@@ -1,7 +1,7 @@
 from random import randint
 
 
-MAIN_QUESTION = 'What number is missing in the progression?'
+CONDITIONS = 'What number is missing in the progression?'
 
 
 def make_progression(start, step):
@@ -14,7 +14,7 @@ def make_progression(start, step):
     return progression
 
 
-def run_game():
+def get_game():
     start = randint(1, 10)
     step = randint(1, 30)
     progression = make_progression(start, step)

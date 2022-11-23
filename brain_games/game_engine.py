@@ -1,14 +1,14 @@
 import prompt
 
 
-def game_engine(game):
+def run_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
-    print(game.MAIN_QUESTION)
+    print(game.CONDITIONS)
     try_count = 3
     while try_count > 0:
-        question, correct_answer = game.run_game()
+        question, correct_answer = game.get_game()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

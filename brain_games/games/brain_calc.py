@@ -1,6 +1,6 @@
 from random import randint, choice
 
-MAIN_QUESTION = 'What is the result of the expression?'
+CONDITIONS = 'What is the result of the expression?'
 
 
 def make_calculation(first_operand, operator, second_operand):
@@ -15,7 +15,7 @@ def make_calculation(first_operand, operator, second_operand):
     return result
 
 
-def run_game():
+def get_game():
     first_operand = randint(0, 100)
     second_operand = randint(0, 100)
     operator = choice(['*', '-', '+'])
